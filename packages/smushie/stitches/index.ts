@@ -1,0 +1,247 @@
+//
+// Smushie -> Stitches Config
+// ...
+//
+
+import { createStitches } from '@stitches/react'
+import utils from '../utils'
+import colors from '../colors'
+import fonts from '../fonts'
+
+import type * as Stitches from '@stitches/react'
+
+const fontFamiliesJoin = (args: string[]) => args.join(', ')
+
+const stitches = createStitches({
+    prefix: 'Smushie',
+    theme: {
+        colors: {
+            ...colors,
+        },
+        fonts: {
+            sans: fontFamiliesJoin(fonts.sans),
+            serif: fontFamiliesJoin(fonts.serif),
+            mono: fontFamiliesJoin(fonts.serif),
+        },
+        fontSizes: {
+            xs: '0.75rem',
+            sm: '0.875rem',
+            base: '1rem',
+            lg: '1.125rem',
+            xl: '1.25rem',
+            '2xl': '1.5rem',
+            '3xl': '1.875rem',
+            '4xl': '2.25rem',
+            '5xl': '3rem',
+            '6xl': '3.75rem',
+            '7xl': '4.5rem',
+            '8xl': '6rem',
+            '9xl': '8rem',
+        },
+        fontWeights: {
+            thin: '100',
+            extralight: '200',
+            light: '300',
+            normal: '400',
+            medium: '500',
+            semibold: '600',
+            bold: '700',
+            extrabold: '800',
+            black: '900',
+        },
+        lineHeights: {
+            3: '.75rem',
+            4: '1rem',
+            5: '1.35rem',
+            6: '1.5rem',
+            7: '1.75rem',
+            8: '2rem',
+            9: '2.25rem',
+            10: '2.5rem',
+            none: '1',
+            tight: '1.25',
+            snug: '1.375',
+            normal: '1.5',
+            relaxed: '1.625',
+            loose: '2',
+        },
+        letterSpacings: {
+            tighter: '-0.05em',
+            tight: '-0.025em',
+            normal: '0em',
+            wide: '0.025em',
+            wider: '0.05em',
+            widest: '0.1em',
+        },
+        sizes: {
+            auto: 'auto',
+            px: '1px',
+            0: '0',
+            1: '0.25rem',
+            2: '0.5rem',
+            3: '0.75rem',
+            4: '1rem',
+            5: '1.25rem',
+            6: '1.5rem',
+            8: '2rem',
+            10: '2.5rem',
+            12: '3rem',
+            16: '4rem',
+            20: '5rem',
+            24: '6rem',
+            28: '7rem',
+            32: '8rem',
+            36: '9rem',
+            40: '10rem',
+            44: '11rem',
+            48: '12rem',
+            52: '13rem',
+            56: '14rem',
+            60: '15rem',
+            64: '16rem',
+            68: '17rem',
+            72: '18rem',
+            76: '19rem',
+            80: '20rem',
+            84: '21rem',
+            88: '22rem',
+            92: '23rem',
+            96: '24rem',
+            '1/2': '50%',
+            '1/3': '33.333333%',
+            '2/3': '66.666667%',
+            '1/4': '25%',
+            '2/4': '50%',
+            '3/4': '75%',
+            '1/5': '20%',
+            '2/5': '40%',
+            '3/5': '60%',
+            '4/5': '80%',
+            '1/6': '16.666667%',
+            '2/6': '33.333333%',
+            '3/6': '50%',
+            '4/6': '66.666667%',
+            '5/6': '83.333333%',
+            '1/12': '8.333333%',
+            '2/12': '16.666667%',
+            '3/12': '25%',
+            '4/12': '33.333333%',
+            '5/12': '41.666667%',
+            '6/12': '50%',
+            '7/12': '58.333333%',
+            '8/12': '66.666667%',
+            '9/12': '75%',
+            '10/12': '83.333333%',
+            '11/12': '91.666667%',
+            full: '100%',
+            vw: '100vw',
+            vh: '100vh',
+            content: 'max-content',
+        },
+        space: {
+            auto: 'auto',
+            px: '1px',
+            0: '0',
+            1: '0.25rem',
+            2: '0.5rem',
+            3: '0.75rem',
+            4: '1rem',
+            5: '1.25rem',
+            6: '1.5rem',
+            8: '2rem',
+            10: '2.5rem',
+            12: '3rem',
+            16: '4rem',
+            20: '5rem',
+            24: '6rem',
+            32: '8rem',
+            40: '10rem',
+            48: '12rem',
+            56: '14rem',
+            64: '16rem',
+            72: '18rem',
+            80: '20rem',
+            96: '24rem',
+        },
+        radii: {
+            none: '0',
+            sm: '0.125rem',
+            rounded: '0.25rem',
+            md: '0.375rem',
+            lg: '0.5rem',
+            xl: '0.75rem',
+            xxl: '1rem',
+            xxxl: '1.5rem',
+            full: '9999px',
+        },
+        borderWidths: {
+            0: '0',
+            1: '1px',
+            2: '2px',
+            3: '3px',
+            4: '4px',
+            5: '5px',
+            6: '6px',
+            7: '7px',
+            8: '8px',
+            9: '9px',
+            10: '10px',
+        },
+        borderStyles: {
+            solid: 'solid',
+            dashed: 'dashed',
+            dotted: 'dotted',
+            double: 'double',
+            groove: 'groove',
+            hidden: 'hidden',
+            inset: 'inset',
+            none: 'none',
+            outset: 'outset',
+            ridge: 'ridge',
+        },
+        shadows: {},
+        zIndices: {
+            1: '100',
+            2: '200',
+            3: '300',
+            4: '400',
+            5: '500',
+            6: '600',
+            7: '700',
+            8: '800',
+            9: '900',
+            max: '999',
+        },
+        transitions: {},
+    },
+    media: {
+        sm: '(min-width: 640px)',
+        md: '(min-width: 768px)',
+        lg: '(min-width: 1024px)',
+        xl: '(min-width: 1280px)',
+        xxl: '(min-width: 1536px)',
+        motion: '(prefers-reduced-motion)',
+        dark: '(prefers-color-scheme: dark)',
+        light: '(prefers-color-scheme: light)',
+    },
+    utils: {
+        ...utils,
+    },
+})
+
+export const createThemeBase = stitches.createTheme
+export const { styled } = stitches
+export const { css } = stitches
+export const { keyframes } = stitches
+export const { getCssText } = stitches
+export const { globalCss } = stitches
+export const { theme } = stitches
+export const { config } = stitches
+
+export type VariantProps<T> = Stitches.VariantProps<T>
+export type CSS = Stitches.CSS<typeof config>
+export type StitchesTheme = typeof theme
+
+//
+// END
+//

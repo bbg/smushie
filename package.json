@@ -1,0 +1,114 @@
+{
+    "name": "smushie",
+    "version": "0.0.1",
+    "description": "UI components with ready-made style props for React",
+    "author": "Batuhan Göksu",
+    "email": "batuhangoksu@gmail.com",
+    "homepage": "https://batuhangoksu.com/smushie",
+    "license": "MIT",
+    "source": "src/index.ts",
+    "main": "dist/index.js",
+    "module": "dist/esm/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "src/index.ts",
+        "dist/index.js",
+        "dist/index.js.map",
+        "dist/esm/index.js",
+        "dist/esm/index.js.map",
+        "dist/iife/index.js",
+        "dist/iife/index.js.map",
+        "dist/index.d.ts",
+        "package.json",
+        "README.md"
+    ],
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bbg/smushie"
+    },
+    "scripts": {
+        "prebuild": "rm -rf lib",
+        "watch": "tsup --watch",
+        "build": "tsup --legacy-output",
+        "build:types": "tsc --pretty",
+        "format": "prettier --write .",
+        "storybook": "start-storybook -p 6006",
+        "storybook:build": "build-storybook",
+        "size": "size-limit",
+        "analyze": "size-limit --why"
+    },
+    "keywords": [
+        "ui",
+        "styled-components",
+        "stitches",
+        "rapid-development",
+        "css-in-js"
+    ],
+    "size-limit": [
+        {
+            "limit": "35 kB",
+            "path": "dist/index.js"
+        },
+        {
+            "limit": "35 kB",
+            "path": "dist/esm/index.js"
+        },
+        {
+            "limit": "35 kB",
+            "path": "dist/iife/index.js"
+        }
+    ],
+    "tsup": {
+        "entry": [
+            "packages/smushie/index.ts"
+        ],
+        "splitting": true,
+        "sourcemap": true,
+        "clean": true,
+        "minify": true,
+        "format": [
+            "cjs",
+            "esm",
+            "iife"
+        ],
+        "dts": true,
+        "legacy-output": true
+    },
+    "dependencies": {
+        "@stitches/react": "^1.2.8",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@size-limit/file": "7.0.8",
+        "@storybook/addon-actions": "^6.5.4",
+        "@storybook/addon-controls": "6.5.4",
+        "@storybook/addon-essentials": "^6.5.4",
+        "@storybook/addon-interactions": "^6.5.4",
+        "@storybook/addon-links": "^6.5.4",
+        "@storybook/builder-webpack4": "^6.5.4",
+        "@storybook/manager-webpack4": "^6.5.4",
+        "@storybook/react": "^6.5.4",
+        "@storybook/testing-library": "^0.0.11",
+        "@swc/core": "1.2.189",
+        "@types/react": "^17.0.39",
+        "babel-loader": "^8.2.4",
+        "prettier": "2.6.2",
+        "size-limit": "7.0.8",
+        "tsup": "5.12.8",
+        "typescript": "4.6.4"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

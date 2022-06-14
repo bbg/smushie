@@ -1,0 +1,7 @@
+.idea
+.vscode
+.DS_Store
+node_modules
+storybook-static
+package-lock.json
+yarn.lock

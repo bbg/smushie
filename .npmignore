@@ -1,0 +1,18 @@
+#
+# NPM Ignore List
+#
+
+.idea
+.storybook
+.vscode
+.DS_Store
+docs
+cover.png
+yarn.lock
+package-lock.json
+stories
+Smushie.code-workspace
+
+#
+# END
+#
