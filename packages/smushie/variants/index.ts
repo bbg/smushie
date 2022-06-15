@@ -381,12 +381,12 @@ const variants = {
             transition: 'none',
         },
         all: {
-            tnp: 'all',
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            tnd: '150ms',
+            tnProperty: 'all',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnDuration: '150ms',
         },
         transition: {
-            tnp: [
+            tnProperty: [
                 'color',
                 'background-color',
                 'border-color',
@@ -399,74 +399,75 @@ const variants = {
                 'filter',
                 'backdrop-filter',
             ].join(' '),
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            tnd: '150ms',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnDuration: '150ms',
         },
         fill: {
-            tnp: 'fill',
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            tnd: '150ms',
+            tnProperty: 'fill',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnDuration: '150ms',
         },
         stroke: {
-            tnp: 'stroke',
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            tnd: '150ms',
+            tnProperty: 'stroke',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnDuration: '150ms',
         },
         filter: {
-            tnp: 'filter',
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            tnd: '150ms',
+            tnProperty: 'filter',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnDuration: '150ms',
         },
         backdropFilter: {
-            tnp: 'backdrop-filter',
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            tnd: '150ms',
+            tnProperty: 'backdrop-filter',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnDuration: '150ms',
         },
         backgroundColor: {
-            tnp: 'background-color',
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            tnd: '150ms',
+            tnProperty: 'background-color',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnDuration: '150ms',
         },
         borderColor: {
-            tnp: 'border-color',
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            tnd: '150ms',
+            tnProperty: 'border-color',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnDuration: '150ms',
         },
         textDecorationColor: {
-            tnp: 'text-decoration-color',
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            tnd: '150ms',
+            tnProperty: 'text-decoration-color',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnDuration: '150ms',
         },
         colors: {
-            tnp: 'color background-color border-color text-decoration-color fill stroke',
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            tnd: '150ms',
+            tnProperty:
+                'color background-color border-color text-decoration-color fill stroke',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnDuration: '150ms',
         },
         opacity: {
-            tnp: 'opacity',
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            tnd: '150ms',
+            tnProperty: 'opacity',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnDuration: '150ms',
         },
         boxShadow: {
-            tnp: 'box-shadow',
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            tnd: '150ms',
+            tnProperty: 'box-shadow',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnDuration: '150ms',
         },
         transform: {
-            tnp: 'transform',
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            tnd: '150ms',
+            tnProperty: 'transform',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnDuration: '150ms',
         },
     },
     transitionProperty: {
         none: {
-            tnp: 'none',
+            tnProperty: 'none',
         },
         all: {
-            tnp: 'all',
+            tnProperty: 'all',
         },
         transition: {
-            tnp: [
+            tnProperty: [
                 'color',
                 'background-color',
                 'border-color',
@@ -481,28 +482,28 @@ const variants = {
             ].join(' '),
         },
         fill: {
-            tnp: 'fill',
+            tnProperty: 'fill',
         },
         stroke: {
-            tnp: 'stroke',
+            tnProperty: 'stroke',
         },
         filter: {
-            tnp: 'filter',
+            tnProperty: 'filter',
         },
         backdropFilter: {
-            tnp: 'backdrop-filter',
+            tnProperty: 'backdrop-filter',
         },
         backgroundColor: {
-            tnp: 'background-color',
+            tnProperty: 'background-color',
         },
         borderColor: {
-            tnp: 'border-color',
+            tnProperty: 'border-color',
         },
         textDecorationColor: {
-            tnp: 'text-decoration-color',
+            tnProperty: 'text-decoration-color',
         },
         colors: {
-            tnp: [
+            tnProperty: [
                 'color',
                 'background-color',
                 'border-color',
@@ -512,56 +513,56 @@ const variants = {
             ].join(' '),
         },
         opacity: {
-            tnp: 'opacity',
+            tnProperty: 'opacity',
         },
         boxShadow: {
-            tnp: 'box-shadow',
+            tnProperty: 'box-shadow',
         },
         transform: {
-            tnp: 'transform',
+            tnProperty: 'transform',
+        },
+    },
+    transitionDuration: {
+        75: {
+            tnDuration: '75ms',
+        },
+        100: {
+            tnDuration: '100ms',
+        },
+        150: {
+            tnDuration: '150ms',
+        },
+        200: {
+            tnDuration: '200ms',
+        },
+        300: {
+            tnDuration: '300ms',
+        },
+        400: {
+            tnDuration: '400ms',
+        },
+        500: {
+            tnDuration: '500ms',
+        },
+        700: {
+            tnDuration: '700ms',
+        },
+        1000: {
+            tnDuration: '1000ms',
         },
     },
     transitionTimingFunction: {
-        75: {
-            tnd: '75ms',
-        },
-        100: {
-            tnd: '100ms',
-        },
-        150: {
-            tnd: '150ms',
-        },
-        200: {
-            tnd: '200ms',
-        },
-        300: {
-            tnd: '300ms',
-        },
-        400: {
-            tnd: '400ms',
-        },
-        500: {
-            tnd: '500ms',
-        },
-        700: {
-            tnd: '700ms',
-        },
-        1000: {
-            tnd: '1000ms',
-        },
-    },
-    transitionTiming: {
         easeLinear: {
-            tntf: 'linear',
+            tnFunction: 'linear',
         },
         easeIn: {
-            tntf: 'cubic-bezier(0.4, 0, 1, 1)',
+            tnFunction: 'cubic-bezier(0.4, 0, 1, 1)',
         },
         easeOut: {
-            tntf: 'cubic-bezier(0, 0, 0.2, 1)',
+            tnFunction: 'cubic-bezier(0, 0, 0.2, 1)',
         },
         easeInOut: {
-            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
         },
     },
     transitionDelay: {

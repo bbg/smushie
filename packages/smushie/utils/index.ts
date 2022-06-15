@@ -78,9 +78,10 @@ const typography = {
 }
 
 const transition = {
-    tnp: (value: string) => ({ transitionProperty: value }),
-    tntf: (value: string) => ({ transitionTimingFunction: value }),
-    tnd: (value: string) => ({ transitionDuration: value }),
+    tnProperty: (value: string) => ({ transitionProperty: value }),
+    tnFunction: (value: string) => ({ transitionTimingFunction: value }),
+    tnDuration: (value: string) => ({ transitionDuration: value }),
+    tnt: (value: string) => ({ transitionTiming: value }),
 }
 
 type TSelector = Record<string, string>
