@@ -381,12 +381,12 @@ const variants = {
             transition: 'none',
         },
         all: {
-            transitionProperty: 'all',
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            transitionDuration: '150ms',
+            tnp: 'all',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnd: '150ms',
         },
         transition: {
-            trasitionProperty: [
+            tnp: [
                 'color',
                 'background-color',
                 'border-color',
@@ -399,81 +399,74 @@ const variants = {
                 'filter',
                 'backdrop-filter',
             ].join(' '),
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            transitionDuration: '150ms',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnd: '150ms',
         },
         fill: {
-            transitionProperty: 'fill',
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            transitionDuration: '150ms',
+            tnp: 'fill',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnd: '150ms',
         },
         stroke: {
-            transitionProperty: 'stroke',
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            transitionDuration: '150ms',
+            tnp: 'stroke',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnd: '150ms',
         },
         filter: {
-            transitionProperty: 'filter',
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            transitionDuration: '150ms',
+            tnp: 'filter',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnd: '150ms',
         },
         backdropFilter: {
-            transitionProperty: 'backdrop-filter',
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            transitionDuration: '150ms',
+            tnp: 'backdrop-filter',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnd: '150ms',
         },
         backgroundColor: {
-            transitionProperty: 'background-color',
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            transitionDuration: '150ms',
+            tnp: 'background-color',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnd: '150ms',
         },
         borderColor: {
-            transitionProperty: 'border-color',
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            transitionDuration: '150ms',
+            tnp: 'border-color',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnd: '150ms',
         },
         textDecorationColor: {
-            transitionProperty: 'text-decoration-color',
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            transitionDuration: '150ms',
+            tnp: 'text-decoration-color',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnd: '150ms',
         },
         colors: {
-            transitionProperty: [
-                'color',
-                'background-color',
-                'border-color',
-                'text-decoration-color',
-                'fill',
-                'stroke',
-            ].join(' '),
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            transitionDuration: '150ms',
+            tnp: 'color background-color border-color text-decoration-color fill stroke',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnd: '150ms',
         },
         opacity: {
-            transitionProperty: 'opacity',
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            transitionDuration: '150ms',
+            tnp: 'opacity',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnd: '150ms',
         },
         boxShadow: {
-            transitionProperty: 'box-shadow',
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            transitionDuration: '150ms',
+            tnp: 'box-shadow',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnd: '150ms',
         },
         transform: {
-            transitionProperty: 'transform',
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-            transitionDuration: '150ms',
+            tnp: 'transform',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tnd: '150ms',
         },
     },
     transitionProperty: {
         none: {
-            transitionProperty: 'none',
+            tnp: 'none',
         },
         all: {
-            transitionProperty: 'all',
+            tnp: 'all',
         },
         transition: {
-            transitionProperty: [
+            tnp: [
                 'color',
                 'background-color',
                 'border-color',
@@ -488,28 +481,28 @@ const variants = {
             ].join(' '),
         },
         fill: {
-            transitionProperty: 'fill',
+            tnp: 'fill',
         },
         stroke: {
-            transitionProperty: 'stroke',
+            tnp: 'stroke',
         },
         filter: {
-            transitionProperty: 'filter',
+            tnp: 'filter',
         },
         backdropFilter: {
-            transitionProperty: 'backdrop-filter',
+            tnp: 'backdrop-filter',
         },
         backgroundColor: {
-            transitionProperty: 'background-color',
+            tnp: 'background-color',
         },
         borderColor: {
-            transitionProperty: 'border-color',
+            tnp: 'border-color',
         },
         textDecorationColor: {
-            transitionProperty: 'text-decoration-color',
+            tnp: 'text-decoration-color',
         },
         colors: {
-            transitionProperty: [
+            tnp: [
                 'color',
                 'background-color',
                 'border-color',
@@ -519,56 +512,56 @@ const variants = {
             ].join(' '),
         },
         opacity: {
-            transitionProperty: 'opacity',
+            tnp: 'opacity',
         },
         boxShadow: {
-            transitionProperty: 'box-shadow',
+            tnp: 'box-shadow',
         },
         transform: {
-            transitionProperty: 'transform',
-        },
-    },
-    transitionDuration: {
-        75: {
-            transitionDuration: '75ms',
-        },
-        100: {
-            transitionDuration: '100ms',
-        },
-        150: {
-            transitionDuration: '150ms',
-        },
-        200: {
-            transitionDuration: '200ms',
-        },
-        300: {
-            transitionDuration: '300ms',
-        },
-        400: {
-            transitionDuration: '400ms',
-        },
-        500: {
-            transitionDuration: '500ms',
-        },
-        700: {
-            transitionDuration: '700ms',
-        },
-        1000: {
-            transitionDuration: '1000ms',
+            tnp: 'transform',
         },
     },
     transitionTimingFunction: {
+        75: {
+            tnd: '75ms',
+        },
+        100: {
+            tnd: '100ms',
+        },
+        150: {
+            tnd: '150ms',
+        },
+        200: {
+            tnd: '200ms',
+        },
+        300: {
+            tnd: '300ms',
+        },
+        400: {
+            tnd: '400ms',
+        },
+        500: {
+            tnd: '500ms',
+        },
+        700: {
+            tnd: '700ms',
+        },
+        1000: {
+            tnd: '1000ms',
+        },
+    },
+    transitionTiming: {
         easeLinear: {
-            transitionTimingFunction: 'linear',
+            tntf: 'linear',
         },
         easeIn: {
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 1, 1)',
+            tntf: 'cubic-bezier(0.4, 0, 1, 1)',
         },
         easeOut: {
-            transitionTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
+            tntf: 'cubic-bezier(0, 0, 0.2, 1)',
         },
         easeInOut: {
-            transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            tntf: 'cubic-bezier(0.4, 0, 0.2, 1)',
         },
     },
     transitionDelay: {
@@ -1918,6 +1911,116 @@ const variants = {
             appearance: 'none',
         },
     },
+    cursor: {
+        auto: {
+            cursor: 'auto',
+        },
+        default: {
+            cursor: 'default',
+        },
+        pointer: {
+            cursor: 'pointer',
+        },
+        wait: {
+            cursor: 'wait',
+        },
+        text: {
+            cursor: 'text',
+        },
+        move: {
+            cursor: 'move',
+        },
+        help: {
+            cursor: 'help',
+        },
+        notAllowed: {
+            cursor: 'not-allowed',
+        },
+        none: {
+            cursor: 'none',
+        },
+        contextMenu: {
+            cursor: 'context-menu',
+        },
+        progress: {
+            cursor: 'progress',
+        },
+        cell: {
+            cursor: 'cell',
+        },
+        crosshair: {
+            cursor: 'crosshair',
+        },
+        verticalText: {
+            cursor: 'vertical-text',
+        },
+        alias: {
+            cursor: 'alias',
+        },
+        copy: {
+            cursor: 'copy',
+        },
+        noDrop: {
+            cursor: 'no-drop',
+        },
+        grap: {
+            cursor: 'grab',
+        },
+        grabbing: {
+            cursor: 'grabbing',
+        },
+        allScroll: {
+            cursor: 'all-scroll',
+        },
+        colResize: {
+            cursor: 'col-resize',
+        },
+        rowResize: {
+            cursor: 'row-resize',
+        },
+        nResize: {
+            cursor: 'n-resize',
+        },
+        eResize: {
+            cursor: 'e-resize',
+        },
+        sResize: {
+            cursor: 's-resize',
+        },
+        wResize: {
+            cursor: 'w-resize',
+        },
+        neResize: {
+            cursor: 'ne-resize',
+        },
+        nwResize: {
+            cursor: 'nw-resize',
+        },
+        seResize: {
+            cursor: 'se-resize',
+        },
+        swResize: {
+            cursor: 'sw-resize',
+        },
+        ewResize: {
+            cursor: 'ew-resize',
+        },
+        nsResize: {
+            cursor: 'ns-resize',
+        },
+        neswResize: {
+            cursor: 'nesw-resize',
+        },
+        nwseResize: {
+            cursor: 'nwse-resize',
+        },
+        zoomIn: {
+            cursor: 'zoom-in',
+        },
+        zoomOut: {
+            cursor: 'zoom-out',
+        },
+    },
     // ---
     left: variant('space', 'left'),
     right: variant('space', 'right'),
@@ -1959,7 +2062,6 @@ const variants = {
     bgColor: variant('colors', 'bgc'),
     hoverBgColor: variant('colors', 'hbgc'),
     focusBgColor: variant('colors', 'fbgc'),
-    outlineColor: variant('colors', 'outlineColor'),
     disabledBorderColor: variant('colors', 'dbc'),
     disabledBgColor: variant('colors', 'dbgc'),
     fontWeight: variant('fontWeights', 'fontWeight'),
@@ -1979,6 +2081,7 @@ const variants = {
     lineHeight: variant('lineHeights', 'lineHeight'),
     letterSpacing: variant('letterSpacings', 'letterSpacing'),
     family: variant('fonts', 'fontFamily'),
+    outlineColor: variant('colors', 'outlineColor'),
 }
 
 export default variants

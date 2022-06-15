@@ -77,6 +77,12 @@ const typography = {
     tds: (value: string) => ({ textDecorationStyle: value }),
 }
 
+const transition = {
+    tnp: (value: string) => ({ transitionProperty: value }),
+    tntf: (value: string) => ({ transitionTimingFunction: value }),
+    tnd: (value: string) => ({ transitionDuration: value }),
+}
+
 type TSelector = Record<string, string>
 type TSelectorInSelector = Record<string, string | TSelector>
 
@@ -100,6 +106,7 @@ const utils = {
     ...size,
     ...radius,
     ...typography,
+    ...transition,
 }
 
 export default utils
