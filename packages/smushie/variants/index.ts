@@ -438,8 +438,14 @@ const variants = {
             tnDuration: '150ms',
         },
         colors: {
-            tnProperty:
-                'color background-color border-color text-decoration-color fill stroke',
+            tnProperty: [
+                'color',
+                'background-color',
+                'border-color',
+                'text-decoration-color',
+                'fill',
+                'stroke',
+            ].join(' '),
             tnFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
             tnDuration: '150ms',
         },
@@ -567,93 +573,93 @@ const variants = {
     },
     transitionDelay: {
         75: {
-            transitionDelay: '75ms',
+            tnDelay: '75ms',
         },
         100: {
-            transitionDelay: '100ms',
+            tnDelay: '100ms',
         },
         150: {
-            transitionDelay: '150ms',
+            tnDelay: '150ms',
         },
         200: {
-            transitionDelay: '200ms',
+            tnDelay: '200ms',
         },
         300: {
-            transitionDelay: '300ms',
+            tnDelay: '300ms',
         },
         400: {
-            transitionDelay: '400ms',
+            tnDelay: '400ms',
         },
         500: {
-            transitionDelay: '500ms',
+            tnDelay: '500ms',
         },
         700: {
-            transitionDelay: '700ms',
+            tnDelay: '700ms',
         },
         1000: {
-            transitionDelay: '1000ms',
+            tnDelay: '1000ms',
         },
     },
     transitionIterationCount: {
         infinite: {
-            transitionIterationCount: 'infinite',
+            tnICount: 'infinite',
         },
         1: {
-            transitionIterationCount: 1,
+            tnICount: 1,
         },
         2: {
-            transitionIterationCount: 2,
+            tnICount: 2,
         },
         3: {
-            transitionIterationCount: 3,
+            tnICount: 3,
         },
         4: {
-            transitionIterationCount: 4,
+            tnICount: 4,
         },
         5: {
-            transitionIterationCount: 5,
+            tnICount: 5,
         },
         6: {
-            transitionIterationCount: 6,
+            tnICount: 6,
         },
         7: {
-            transitionIterationCount: 7,
+            tnICount: 7,
         },
         8: {
-            transitionIterationCount: 8,
+            tnICount: 8,
         },
         9: {
-            transitionIterationCount: 9,
+            tnICount: 9,
         },
         10: {
-            transitionIterationCount: 10,
+            tnICount: 10,
         },
         20: {
-            transitionIterationCount: 20,
+            tnICount: 20,
         },
         30: {
-            transitionIterationCount: 30,
+            tnICount: 30,
         },
         40: {
-            transitionIterationCount: 40,
+            tnICount: 40,
         },
         50: {
-            transitionIterationCount: 50,
+            tnICount: 50,
         },
         60: {
-            transitionIterationCount: 60,
+            tnICount: 60,
         },
         70: {
-            transitionIterationCount: 70,
+            tnICount: 70,
         },
         80: {
-            transitionIterationCount: 80,
+            tnICount: 80,
         },
         90: {
-            transitionIterationCount: 90,
+            tnICount: 90,
         },
         100: {
-            transitionIterationCount: 100,
+            tnICount: 100,
         },
     },
     animation: {

@@ -81,6 +81,8 @@ const transition = {
     tnProperty: (value: string) => ({ transitionProperty: value }),
     tnFunction: (value: string) => ({ transitionTimingFunction: value }),
     tnDuration: (value: string) => ({ transitionDuration: value }),
+    tnDelay: (value: string) => ({ transitionDelay: value }),
+    tnICount: (value: string) => ({ transitionIterationCount: value }),
     tnt: (value: string) => ({ transitionTiming: value }),
 }
 
