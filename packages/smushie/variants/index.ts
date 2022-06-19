@@ -2036,6 +2036,12 @@ const variants = {
     // ---
     borderStyle: variant('borderStyles', 'borderStyle'),
     borderWidth: variant('borderWidths', 'bw'),
+    borderWidthLeft: variant('borderWidths', 'bwl'),
+    borderWidthRight: variant('borderWidths', 'bwr'),
+    borderWidthTop: variant('borderWidths', 'bwt'),
+    borderWidthBottom: variant('borderWidths', 'bwb'),
+    borderWidthX: variant('borderWidths', 'bwx'),
+    borderWidthY: variant('borderWidths', 'bwy'),
     borderColor: variant('colors', 'bc'),
     hoverBorderColor: variant('colors', 'hbc'),
     focusBorderColor: variant('colors', 'fbc'),

@@ -25,6 +25,12 @@ const margin = {
 
 const border = {
     bw: (value: string) => ({ borderWidth: value }),
+    blw: (value: string) => ({ borderLeftWidth: value }),
+    brw: (value: string) => ({ borderRightWidth: value }),
+    btw: (value: string) => ({ borderTopWidth: value }),
+    bbw: (value: string) => ({ borderBottomWidth: value }),
+    bwx: (value: string) => ({ blw: value, brw: value }),
+    bwy: (value: string) => ({ btw: value, bbw: value }),
     bs: (value: string) => ({ borderStyle: value }),
     br: (value: string) => ({ borderRadius: value }),
     bc: (value: string) => ({ borderColor: value }),
