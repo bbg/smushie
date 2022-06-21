@@ -190,8 +190,8 @@ const Template: ComponentStory<AnimationType<typeof Block>> = (args) => {
     return (
         <Block
             borderColor="blue-200"
-            borderStyle="solid"
-            borderWidth="5"
+            border="solid"
+            borderW="5"
             bgColor="blue-500"
             p="5"
             boxSize="28"

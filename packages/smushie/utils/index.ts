@@ -32,6 +32,12 @@ const border = {
     bwx: (value: string) => ({ blw: value, brw: value }),
     bwy: (value: string) => ({ btw: value, bbw: value }),
     bs: (value: string) => ({ borderStyle: value }),
+    bsl: (value: string) => ({ borderLeftStyle: value }),
+    bsr: (value: string) => ({ borderRightStyle: value }),
+    bst: (value: string) => ({ borderTopStyle: value }),
+    bsb: (value: string) => ({ borderBottomStyle: value }),
+    bsx: (value: string) => ({ bsl: value, bsr: value }),
+    bsy: (value: string) => ({ bst: value, bsb: value }),
     br: (value: string) => ({ borderRadius: value }),
     bc: (value: string) => ({ borderColor: value }),
     hbc: (value: string) => ({ '&:hover': { borderColor: value } }),
@@ -46,7 +52,7 @@ const gap = {
 }
 
 const other = {
-    bs: (value: string) => ({ boxShadow: value }),
+    bsh: (value: string) => ({ boxShadow: value }),
     lh: (value: string) => ({ lineHeight: value }),
     lg: (value: string) => ({ backgroundImage: `linear-gradient(${value})` }),
     boxSize: (value: string) => ({ width: value, height: value }),

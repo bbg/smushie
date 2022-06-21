@@ -1,5 +1,5 @@
 //
-// Smushie -> Block Styled Component
+// Smushie -> Elements
 //
 // In the block component, flex, section, main, article, header,
 // footer, nav, acid, list, item components are available.
