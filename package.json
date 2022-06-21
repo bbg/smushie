@@ -1,6 +1,6 @@
 {
     "name": "smushie",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "UI components with ready-made style props for React",
     "author": "Batuhan Göksu",
     "email": "batuhangoksu@gmail.com",
@@ -76,7 +76,7 @@
         "legacy-output": true
     },
     "dependencies": {
-        "@stitches/react": "^1.2.8",
+        "@stitches/react": "1.2.8",
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
     },
