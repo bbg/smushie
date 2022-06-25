@@ -7792,6 +7792,7 @@ declare const Block: react.MemoExoticComponent<_stitches_react_types_styled_comp
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -7818,6 +7819,7 @@ declare const Block: react.MemoExoticComponent<_stitches_react_types_styled_comp
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -8645,6 +8647,7 @@ declare const Flex: react.MemoExoticComponent<_stitches_react_types_styled_compo
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -8671,6 +8674,7 @@ declare const Flex: react.MemoExoticComponent<_stitches_react_types_styled_compo
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -9498,6 +9502,7 @@ declare const Grid: react.MemoExoticComponent<_stitches_react_types_styled_compo
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -9524,6 +9529,7 @@ declare const Grid: react.MemoExoticComponent<_stitches_react_types_styled_compo
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -10351,6 +10357,7 @@ declare const Section: react.MemoExoticComponent<_stitches_react_types_styled_co
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -10377,6 +10384,7 @@ declare const Section: react.MemoExoticComponent<_stitches_react_types_styled_co
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -11204,6 +11212,7 @@ declare const Main: react.MemoExoticComponent<_stitches_react_types_styled_compo
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -11230,6 +11239,7 @@ declare const Main: react.MemoExoticComponent<_stitches_react_types_styled_compo
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -12057,6 +12067,7 @@ declare const Article: react.MemoExoticComponent<_stitches_react_types_styled_co
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -12083,6 +12094,7 @@ declare const Article: react.MemoExoticComponent<_stitches_react_types_styled_co
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -12910,6 +12922,7 @@ declare const Header: react.MemoExoticComponent<_stitches_react_types_styled_com
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -12936,6 +12949,7 @@ declare const Header: react.MemoExoticComponent<_stitches_react_types_styled_com
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -13763,6 +13777,7 @@ declare const Footer: react.MemoExoticComponent<_stitches_react_types_styled_com
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -13789,6 +13804,7 @@ declare const Footer: react.MemoExoticComponent<_stitches_react_types_styled_com
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -14616,6 +14632,7 @@ declare const Nav: react.MemoExoticComponent<_stitches_react_types_styled_compon
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -14642,6 +14659,7 @@ declare const Nav: react.MemoExoticComponent<_stitches_react_types_styled_compon
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -15469,6 +15487,7 @@ declare const Aside: react.MemoExoticComponent<_stitches_react_types_styled_comp
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -15495,6 +15514,7 @@ declare const Aside: react.MemoExoticComponent<_stitches_react_types_styled_comp
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -16322,6 +16342,7 @@ declare const List: react.MemoExoticComponent<_stitches_react_types_styled_compo
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -16348,6 +16369,7 @@ declare const List: react.MemoExoticComponent<_stitches_react_types_styled_compo
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -17175,6 +17197,7 @@ declare const Item: react.MemoExoticComponent<_stitches_react_types_styled_compo
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -17201,6 +17224,7 @@ declare const Item: react.MemoExoticComponent<_stitches_react_types_styled_compo
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -18028,6 +18052,7 @@ declare const Form: react.MemoExoticComponent<_stitches_react_types_styled_compo
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -18054,6 +18079,7 @@ declare const Form: react.MemoExoticComponent<_stitches_react_types_styled_compo
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -18881,6 +18907,7 @@ declare const Fieldset: react.MemoExoticComponent<_stitches_react_types_styled_c
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -18907,6 +18934,7 @@ declare const Fieldset: react.MemoExoticComponent<_stitches_react_types_styled_c
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -19734,6 +19762,7 @@ declare const Legend: react.MemoExoticComponent<_stitches_react_types_styled_com
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -19760,6 +19789,7 @@ declare const Legend: react.MemoExoticComponent<_stitches_react_types_styled_com
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -20587,6 +20617,7 @@ declare const Label: react.MemoExoticComponent<_stitches_react_types_styled_comp
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -20613,6 +20644,7 @@ declare const Label: react.MemoExoticComponent<_stitches_react_types_styled_comp
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -21440,6 +21472,7 @@ declare const Button: react.MemoExoticComponent<_stitches_react_types_styled_com
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -21466,6 +21499,7 @@ declare const Button: react.MemoExoticComponent<_stitches_react_types_styled_com
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -22293,6 +22327,7 @@ declare const Filter: react.MemoExoticComponent<_stitches_react_types_styled_com
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -22319,6 +22354,7 @@ declare const Filter: react.MemoExoticComponent<_stitches_react_types_styled_com
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -23146,6 +23182,7 @@ declare const Input: react.MemoExoticComponent<_stitches_react_types_styled_comp
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -23172,6 +23209,7 @@ declare const Input: react.MemoExoticComponent<_stitches_react_types_styled_comp
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -23999,6 +24037,7 @@ declare const Textarea: react.MemoExoticComponent<_stitches_react_types_styled_c
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -24025,6 +24064,7 @@ declare const Textarea: react.MemoExoticComponent<_stitches_react_types_styled_c
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -24852,6 +24892,7 @@ declare const Text: _stitches_react_types_styled_component.StyledComponent<"span
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -24878,6 +24919,7 @@ declare const Text: _stitches_react_types_styled_component.StyledComponent<"span
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -25705,6 +25747,7 @@ declare const Quote: _stitches_react_types_styled_component.StyledComponent<"q",
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -25731,6 +25774,7 @@ declare const Quote: _stitches_react_types_styled_component.StyledComponent<"q",
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -26558,6 +26602,7 @@ declare const Span: react.MemoExoticComponent<_stitches_react_types_styled_compo
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -26584,6 +26629,7 @@ declare const Span: react.MemoExoticComponent<_stitches_react_types_styled_compo
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -27411,6 +27457,7 @@ declare const P: react.MemoExoticComponent<_stitches_react_types_styled_componen
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -27437,6 +27484,7 @@ declare const P: react.MemoExoticComponent<_stitches_react_types_styled_componen
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -28264,6 +28312,7 @@ declare const Small: react.MemoExoticComponent<_stitches_react_types_styled_comp
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -28290,6 +28339,7 @@ declare const Small: react.MemoExoticComponent<_stitches_react_types_styled_comp
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -29117,6 +29167,7 @@ declare const Del: react.MemoExoticComponent<_stitches_react_types_styled_compon
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -29143,6 +29194,7 @@ declare const Del: react.MemoExoticComponent<_stitches_react_types_styled_compon
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -29970,6 +30022,7 @@ declare const H1: react.MemoExoticComponent<_stitches_react_types_styled_compone
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -29996,6 +30049,7 @@ declare const H1: react.MemoExoticComponent<_stitches_react_types_styled_compone
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -30823,6 +30877,7 @@ declare const H2: react.MemoExoticComponent<_stitches_react_types_styled_compone
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -30849,6 +30904,7 @@ declare const H2: react.MemoExoticComponent<_stitches_react_types_styled_compone
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -31676,6 +31732,7 @@ declare const H3: react.MemoExoticComponent<_stitches_react_types_styled_compone
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -31702,6 +31759,7 @@ declare const H3: react.MemoExoticComponent<_stitches_react_types_styled_compone
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -32529,6 +32587,7 @@ declare const H4: react.MemoExoticComponent<_stitches_react_types_styled_compone
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -32555,6 +32614,7 @@ declare const H4: react.MemoExoticComponent<_stitches_react_types_styled_compone
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -33382,6 +33442,7 @@ declare const H5: react.MemoExoticComponent<_stitches_react_types_styled_compone
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -33408,6 +33469,7 @@ declare const H5: react.MemoExoticComponent<_stitches_react_types_styled_compone
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -34235,6 +34297,7 @@ declare const H6: react.MemoExoticComponent<_stitches_react_types_styled_compone
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -34261,6 +34324,7 @@ declare const H6: react.MemoExoticComponent<_stitches_react_types_styled_compone
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -35088,6 +35152,7 @@ declare const Ins: react.MemoExoticComponent<_stitches_react_types_styled_compon
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -35114,6 +35179,7 @@ declare const Ins: react.MemoExoticComponent<_stitches_react_types_styled_compon
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -35941,6 +36007,7 @@ declare const Em: react.MemoExoticComponent<_stitches_react_types_styled_compone
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -35967,6 +36034,7 @@ declare const Em: react.MemoExoticComponent<_stitches_react_types_styled_compone
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -36794,6 +36862,7 @@ declare const Strong: react.MemoExoticComponent<_stitches_react_types_styled_com
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -36820,6 +36889,7 @@ declare const Strong: react.MemoExoticComponent<_stitches_react_types_styled_com
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -37647,6 +37717,7 @@ declare const Mark: react.MemoExoticComponent<_stitches_react_types_styled_compo
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -37673,6 +37744,7 @@ declare const Mark: react.MemoExoticComponent<_stitches_react_types_styled_compo
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
@@ -38500,6 +38572,7 @@ declare const A: react.MemoExoticComponent<_stitches_react_types_styled_componen
     fontStyle?: "normal" | "italic" | undefined;
     textAlign?: "left" | "right" | "center" | undefined;
     decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
     decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
     flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
     grow?: "initial" | "grow" | undefined;
@@ -38526,6 +38599,7 @@ declare const A: react.MemoExoticComponent<_stitches_react_types_styled_componen
     right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
     border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
     borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
