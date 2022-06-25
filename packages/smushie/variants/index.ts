@@ -1566,6 +1566,28 @@ const variants = {
             tdl: 'none',
         },
     },
+    hoverDecoration: {
+        underline: {
+            hover: {
+                tdl: 'underline',
+            },
+        },
+        overline: {
+            hover: {
+                tdl: 'overline',
+            },
+        },
+        lineThrough: {
+            hover: {
+                tdl: 'line-through',
+            },
+        },
+        noUnderline: {
+            hover: {
+                tdl: 'none',
+            },
+        },
+    },
     decorationStyle: {
         solid: {
             tds: 'solid',
@@ -2033,6 +2055,7 @@ const variants = {
     right: variant('space', 'right'),
     top: variant('space', 'top'),
     bottom: variant('space', 'bottom'),
+    inset: variant('space', 'inset'),
     // ---
     border: variant('borderStyles', 'bs'),
     borderL: variant('borderStyles', 'bsl'),
@@ -2070,7 +2093,7 @@ const variants = {
     maxH: variant('sizes', 'maxHeight'),
     boxSize: variant('sizes', 'boxSize'),
     // ---
-    zIndex: variant('zIndices', 'fbgc'),
+    zIndex: variant('zIndices', 'zIndex'),
     radius: variant('radii', 'br'),
     // ---
     bgColor: variant('colors', 'bgc'),
