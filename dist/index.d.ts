@@ -24840,6 +24840,1582 @@ declare const Textarea: react.MemoExoticComponent<_stitches_react_types_styled_c
         pb: string;
     };
 }>>>;
+declare const Select: react.MemoExoticComponent<_stitches_react_types_styled_component.StyledComponent<"select", {
+    display?: "hidden" | "flex" | "table" | "block" | "inline" | "contents" | "inlineBlock" | "inlineFlex" | "inlineTable" | "tableCaption" | "tableCell" | "tableColumn" | "tableColumnGroup" | "tableFooterGroup" | "tableHeaderGroup" | "tableRowGroup" | "tableRow" | "flowRoot" | "inlineGrid" | "listItem" | undefined;
+    columns?: "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "none" | "1" | "2" | "12" | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 12 | "11" | 11 | undefined;
+    columnsStartEnd?: "spanAuto" | "span1" | "span2" | "span3" | "span4" | "span5" | "span6" | "span7" | "span8" | "span9" | "span10" | "span11" | "span12" | "spanFull" | "start1" | "start2" | "start3" | "start4" | "start5" | "start6" | "start7" | "start8" | "start9" | "start10" | "start11" | "start12" | "start13" | "startAuto" | "end1" | "end2" | "end3" | "end4" | "end5" | "end6" | "end7" | "end8" | "end9" | "end10" | "end11" | "end12" | "end13" | "endAuto" | undefined;
+    templateRows?: "3" | "4" | "5" | "6" | "none" | "1" | "2" | 1 | 2 | 3 | 4 | 5 | 6 | undefined;
+    rowStartEnd?: "full" | "spanAuto" | "span1" | "span2" | "span3" | "span4" | "span5" | "span6" | "start1" | "start2" | "start3" | "start4" | "start5" | "start6" | "start7" | "startAuto" | "end1" | "end2" | "end3" | "end4" | "end5" | "end6" | "end7" | "endAuto" | undefined;
+    autoFlow?: "col" | "row" | "rowDense" | "columnDense" | undefined;
+    autoColumns?: "auto" | "max" | "min" | "fr" | undefined;
+    autoRows?: "auto" | "max" | "min" | "fr" | undefined;
+    transition?: "none" | "colors" | "backdropFilter" | "backgroundColor" | "boxShadow" | "filter" | "opacity" | "textDecorationColor" | "transform" | "all" | "borderColor" | "transition" | "fill" | "stroke" | undefined;
+    transitionProperty?: "none" | "colors" | "backdropFilter" | "backgroundColor" | "boxShadow" | "filter" | "opacity" | "textDecorationColor" | "transform" | "all" | "borderColor" | "transition" | "fill" | "stroke" | undefined;
+    transitionDuration?: "100" | "200" | "300" | "400" | "500" | "700" | 100 | 75 | 150 | 200 | 300 | 400 | 500 | 700 | 1000 | "75" | "150" | "1000" | undefined;
+    transitionTimingFunction?: "easeLinear" | "easeIn" | "easeOut" | "easeInOut" | undefined;
+    transitionDelay?: "100" | "200" | "300" | "400" | "500" | "700" | 100 | 75 | 150 | 200 | 300 | 400 | 500 | 700 | 1000 | "75" | "150" | "1000" | undefined;
+    transitionIterationCount?: "100" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "1" | "2" | "20" | "40" | "60" | "80" | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 20 | 40 | 60 | 80 | "infinite" | 30 | 50 | 70 | 90 | 100 | "30" | "50" | "70" | "90" | undefined;
+    animation?: "none" | "colors" | "backdropFilter" | "backgroundColor" | "filter" | "opacity" | "textDecorationColor" | "transform" | "all" | "animation" | "borderColor" | "fill" | "stroke" | "shadow" | undefined;
+    animationProperty?: "none" | "colors" | "backdropFilter" | "backgroundColor" | "boxShadow" | "filter" | "opacity" | "textDecorationColor" | "transform" | "all" | "animation" | "borderColor" | "fill" | "stroke" | undefined;
+    animationDuration?: "100" | "200" | "300" | "400" | "500" | "700" | 100 | 75 | 150 | 200 | 300 | 400 | 500 | 700 | 1000 | "75" | "150" | "1000" | undefined;
+    animationTimingFunction?: "easeLinear" | "easeIn" | "easeOut" | "easeInOut" | undefined;
+    animationDelay?: "100" | "200" | "300" | "400" | "500" | "700" | 100 | 75 | 150 | 200 | 300 | 400 | 500 | 700 | 1000 | "75" | "150" | "1000" | undefined;
+    animationIterationCount?: "100" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "1" | "2" | "20" | "40" | "60" | "80" | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 20 | 40 | 60 | 80 | "infinite" | 30 | 50 | 70 | 90 | 100 | "30" | "50" | "70" | "90" | undefined;
+    contentAlign?: "left" | "right" | "center" | undefined;
+    outlineWidth?: 0 | "3" | "4" | "8" | "1" | "2" | "0" | 1 | 2 | 3 | 4 | 8 | undefined;
+    outlineStyle?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
+    outlineOffset?: 0 | "3" | "4" | "8" | "1" | "2" | "0" | 1 | 2 | 3 | 4 | 8 | undefined;
+    blur?: "sm" | "lg" | "xl" | "2xl" | "3xl" | "none" | "md" | "default" | undefined;
+    brightness?: 0 | "100" | "200" | "0" | 50 | 90 | 100 | 75 | 150 | 200 | 95 | 105 | 110 | 125 | "75" | "150" | "50" | "90" | "95" | "105" | "110" | "125" | undefined;
+    contrast?: 0 | "100" | "200" | "0" | 50 | 100 | 75 | 150 | 200 | 125 | "75" | "150" | "50" | "125" | undefined;
+    grayscale?: 0 | "1" | "0" | 1 | undefined;
+    hueRotate?: 0 | "0" | "60" | 60 | 30 | 90 | 15 | 180 | "30" | "90" | "15" | "180" | undefined;
+    invert?: 0 | "1" | "0" | 1 | undefined;
+    saturate?: 0 | "100" | "200" | "0" | 50 | 100 | 75 | 150 | 200 | "75" | "150" | "50" | undefined;
+    sepia?: 0 | "1" | "0" | 1 | undefined;
+    backdropBlur?: "sm" | "lg" | "xl" | "2xl" | "3xl" | "none" | "md" | "default" | undefined;
+    backdropBrightness?: 0 | "100" | "200" | "0" | 50 | 90 | 100 | 75 | 150 | 200 | 95 | 105 | 110 | 125 | "75" | "150" | "50" | "90" | "95" | "105" | "110" | "125" | undefined;
+    backdropContrast?: 0 | "100" | "200" | "0" | 50 | 100 | 75 | 150 | 200 | 125 | "75" | "150" | "50" | "125" | undefined;
+    backdropGrayscale?: 0 | "1" | "0" | 1 | undefined;
+    backdropHueRotate?: 0 | "0" | "60" | 60 | 30 | 90 | 15 | 180 | "30" | "90" | "15" | "180" | undefined;
+    backdropInvert?: 0 | "1" | "0" | 1 | undefined;
+    backdropOpacity?: 0 | "100" | "5" | "10" | "0" | "20" | "40" | "60" | "80" | 5 | 10 | 20 | 40 | 60 | 80 | 30 | 50 | 70 | 90 | 100 | 75 | 95 | 25 | "75" | "30" | "50" | "70" | "90" | "95" | "25" | undefined;
+    backdropSaturate?: 0 | "100" | "200" | "0" | 50 | 100 | 75 | 150 | 200 | "75" | "150" | "50" | undefined;
+    backdropSepia?: 0 | "1" | "0" | 1 | undefined;
+    resize?: "none" | "vertical" | "horizontal" | "both" | undefined;
+    transform?: "uppercase" | "lowercase" | "capitalize" | "normalCase" | undefined;
+    overflow?: "auto" | "hidden" | "clip" | "visible" | "scroll" | "ellipsis" | "autoX" | "autoY" | "hiddenX" | "hiddenY" | "clipX" | "clipY" | "visibleX" | "visibleY" | "scrollX" | "scrollY" | "truncate" | undefined;
+    clear?: "none" | "left" | "right" | "both" | undefined;
+    vAlign?: "sub" | "bottom" | "top" | "baseline" | "middle" | "super" | "textTop" | "textBottom" | undefined;
+    whitespace?: "normal" | "pre" | "nowrap" | "preLine" | "preWrap" | undefined;
+    wordBreak?: "normal" | "all" | "words" | "keepAll" | undefined;
+    fontStyle?: "normal" | "italic" | undefined;
+    textAlign?: "left" | "right" | "center" | undefined;
+    decoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    hoverDecoration?: "overline" | "underline" | "lineThrough" | "noUnderline" | undefined;
+    decorationStyle?: "solid" | "dashed" | "dotted" | "double" | "wavy" | undefined;
+    flex?: "none" | "1" | "auto" | 1 | "initial" | undefined;
+    grow?: "initial" | "grow" | undefined;
+    wrap?: "stretch" | "center" | "end" | "start" | undefined;
+    flow?: "inherit" | "initial" | "revert" | "unset" | "row" | "column" | "rowReverse" | "columnReverse" | undefined;
+    justifyContent?: "stretch" | "center" | "end" | "start" | "between" | "around" | "evenly" | undefined;
+    justifyItems?: "stretch" | "center" | "end" | "start" | undefined;
+    justifySelf?: "stretch" | "center" | "end" | "start" | undefined;
+    alignContent?: "center" | "end" | "start" | "between" | "around" | "evenly" | undefined;
+    alignItems?: "stretch" | "center" | "end" | "start" | undefined;
+    alignSelf?: "auto" | "stretch" | "center" | "end" | "baseline" | "start" | undefined;
+    placeContent?: "stretch" | "center" | "end" | "start" | "between" | "around" | "evenly" | undefined;
+    placeItems?: "stretch" | "center" | "end" | "start" | undefined;
+    placeSelf?: "auto" | "stretch" | "center" | "end" | "start" | undefined;
+    shrink?: 0 | "1" | "0" | 1 | undefined;
+    order?: "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "none" | "1" | "2" | "12" | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 12 | "11" | 11 | "first" | "last" | undefined;
+    position?: "fixed" | "relative" | "absolute" | "sticky" | undefined;
+    visible?: "hidden" | "visible" | undefined;
+    float?: "none" | "left" | "right" | undefined;
+    appearance?: "none" | undefined;
+    reset?: "all" | "border" | "borderRadius" | undefined;
+    cursor?: "none" | "auto" | "progress" | "text" | "cell" | "contextMenu" | "default" | "pointer" | "wait" | "move" | "help" | "crosshair" | "alias" | "copy" | "grabbing" | "notAllowed" | "verticalText" | "noDrop" | "grap" | "allScroll" | "colResize" | "rowResize" | "nResize" | "eResize" | "sResize" | "wResize" | "neResize" | "nwResize" | "seResize" | "swResize" | "ewResize" | "nsResize" | "neswResize" | "nwseResize" | "zoomIn" | "zoomOut" | undefined;
+    left?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    right?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    top?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    bottom?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    inset?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    border?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
+    borderL?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
+    borderR?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
+    borderT?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
+    borderB?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
+    borderX?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
+    borderY?: "none" | "solid" | "dashed" | "dotted" | "double" | "groove" | "hidden" | "inset" | "outset" | "ridge" | undefined;
+    borderW?: number | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "1" | "2" | "0" | undefined;
+    borderColor?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    borderHoverColor?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    borderFocusColor?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    borderDisabledColor?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    p?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    pl?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    pr?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    pt?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    pb?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    px?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    py?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    m?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    ml?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    mr?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    mt?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    mb?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    mx?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    my?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    w?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "1px" | "2px" | "3px" | "4px" | "5px" | "6px" | "7px" | "8px" | "9px" | "10px" | "0" | "12" | "16" | "20" | "24" | "28" | "32" | "36" | "40" | "44" | "48" | "52" | "56" | "60" | "64" | "68" | "72" | "76" | "80" | "84" | "88" | "92" | "96" | "1/2" | "1/3" | "2/3" | "1/4" | "2/4" | "3/4" | "1/5" | "2/5" | "3/5" | "4/5" | "1/6" | "2/6" | "3/6" | "4/6" | "5/6" | "1/12" | "2/12" | "3/12" | "4/12" | "5/12" | "6/12" | "7/12" | "8/12" | "9/12" | "10/12" | "11/12" | "full" | "vw" | "vh" | "content" | undefined;
+    minW?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "1px" | "2px" | "3px" | "4px" | "5px" | "6px" | "7px" | "8px" | "9px" | "10px" | "0" | "12" | "16" | "20" | "24" | "28" | "32" | "36" | "40" | "44" | "48" | "52" | "56" | "60" | "64" | "68" | "72" | "76" | "80" | "84" | "88" | "92" | "96" | "1/2" | "1/3" | "2/3" | "1/4" | "2/4" | "3/4" | "1/5" | "2/5" | "3/5" | "4/5" | "1/6" | "2/6" | "3/6" | "4/6" | "5/6" | "1/12" | "2/12" | "3/12" | "4/12" | "5/12" | "6/12" | "7/12" | "8/12" | "9/12" | "10/12" | "11/12" | "full" | "vw" | "vh" | "content" | undefined;
+    maxW?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "1px" | "2px" | "3px" | "4px" | "5px" | "6px" | "7px" | "8px" | "9px" | "10px" | "0" | "12" | "16" | "20" | "24" | "28" | "32" | "36" | "40" | "44" | "48" | "52" | "56" | "60" | "64" | "68" | "72" | "76" | "80" | "84" | "88" | "92" | "96" | "1/2" | "1/3" | "2/3" | "1/4" | "2/4" | "3/4" | "1/5" | "2/5" | "3/5" | "4/5" | "1/6" | "2/6" | "3/6" | "4/6" | "5/6" | "1/12" | "2/12" | "3/12" | "4/12" | "5/12" | "6/12" | "7/12" | "8/12" | "9/12" | "10/12" | "11/12" | "full" | "vw" | "vh" | "content" | undefined;
+    h?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "1px" | "2px" | "3px" | "4px" | "5px" | "6px" | "7px" | "8px" | "9px" | "10px" | "0" | "12" | "16" | "20" | "24" | "28" | "32" | "36" | "40" | "44" | "48" | "52" | "56" | "60" | "64" | "68" | "72" | "76" | "80" | "84" | "88" | "92" | "96" | "1/2" | "1/3" | "2/3" | "1/4" | "2/4" | "3/4" | "1/5" | "2/5" | "3/5" | "4/5" | "1/6" | "2/6" | "3/6" | "4/6" | "5/6" | "1/12" | "2/12" | "3/12" | "4/12" | "5/12" | "6/12" | "7/12" | "8/12" | "9/12" | "10/12" | "11/12" | "full" | "vw" | "vh" | "content" | undefined;
+    minH?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "1px" | "2px" | "3px" | "4px" | "5px" | "6px" | "7px" | "8px" | "9px" | "10px" | "0" | "12" | "16" | "20" | "24" | "28" | "32" | "36" | "40" | "44" | "48" | "52" | "56" | "60" | "64" | "68" | "72" | "76" | "80" | "84" | "88" | "92" | "96" | "1/2" | "1/3" | "2/3" | "1/4" | "2/4" | "3/4" | "1/5" | "2/5" | "3/5" | "4/5" | "1/6" | "2/6" | "3/6" | "4/6" | "5/6" | "1/12" | "2/12" | "3/12" | "4/12" | "5/12" | "6/12" | "7/12" | "8/12" | "9/12" | "10/12" | "11/12" | "full" | "vw" | "vh" | "content" | undefined;
+    maxH?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "1px" | "2px" | "3px" | "4px" | "5px" | "6px" | "7px" | "8px" | "9px" | "10px" | "0" | "12" | "16" | "20" | "24" | "28" | "32" | "36" | "40" | "44" | "48" | "52" | "56" | "60" | "64" | "68" | "72" | "76" | "80" | "84" | "88" | "92" | "96" | "1/2" | "1/3" | "2/3" | "1/4" | "2/4" | "3/4" | "1/5" | "2/5" | "3/5" | "4/5" | "1/6" | "2/6" | "3/6" | "4/6" | "5/6" | "1/12" | "2/12" | "3/12" | "4/12" | "5/12" | "6/12" | "7/12" | "8/12" | "9/12" | "10/12" | "11/12" | "full" | "vw" | "vh" | "content" | undefined;
+    boxSize?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "1px" | "2px" | "3px" | "4px" | "5px" | "6px" | "7px" | "8px" | "9px" | "10px" | "0" | "12" | "16" | "20" | "24" | "28" | "32" | "36" | "40" | "44" | "48" | "52" | "56" | "60" | "64" | "68" | "72" | "76" | "80" | "84" | "88" | "92" | "96" | "1/2" | "1/3" | "2/3" | "1/4" | "2/4" | "3/4" | "1/5" | "2/5" | "3/5" | "4/5" | "1/6" | "2/6" | "3/6" | "4/6" | "5/6" | "1/12" | "2/12" | "3/12" | "4/12" | "5/12" | "6/12" | "7/12" | "8/12" | "9/12" | "10/12" | "11/12" | "full" | "vw" | "vh" | "content" | undefined;
+    zIndex?: number | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "1" | "2" | "max" | undefined;
+    radius?: "sm" | "lg" | "xl" | "none" | "full" | "rounded" | "md" | "xxl" | "xxxl" | undefined;
+    bgColor?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    bgHoverColor?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    bgFocusColor?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    bgDisabledColor?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    color?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    colorHover?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    colorFocus?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    colorDisabled?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    gap?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    xgap?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    ygap?: number | "3" | "4" | "5" | "6" | "8" | "10" | "1" | "2" | "auto" | "0" | "12" | "16" | "20" | "24" | "32" | "40" | "48" | "56" | "64" | "72" | "80" | "96" | "px" | undefined;
+    decorationColor?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    decorationThickness?: number | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "1" | "2" | "0" | undefined;
+    fontSize?: "xs" | "sm" | "base" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl" | "7xl" | "8xl" | "9xl" | undefined;
+    lineHeight?: number | "normal" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "none" | "tight" | "snug" | "relaxed" | "loose" | undefined;
+    letterSpacing?: "normal" | "tight" | "tighter" | "wide" | "wider" | "widest" | undefined;
+    family?: "serif" | "sans" | "mono" | undefined;
+    outlineColor?: "inherit" | "transparent" | "black" | "current" | "white" | "slate-50" | "slate-100" | "slate-200" | "slate-300" | "slate-400" | "slate-500" | "slate-600" | "slate-700" | "slate-800" | "slate-900" | "gray-50" | "gray-100" | "gray-200" | "gray-300" | "gray-400" | "gray-500" | "gray-600" | "gray-700" | "gray-800" | "gray-900" | "zinc-50" | "zinc-100" | "zinc-200" | "zinc-300" | "zinc-400" | "zinc-500" | "zinc-600" | "zinc-700" | "zinc-800" | "zinc-900" | "neutral-50" | "neutral-100" | "neutral-200" | "neutral-300" | "neutral-400" | "neutral-500" | "neutral-600" | "neutral-700" | "neutral-800" | "neutral-900" | "stone-50" | "stone-100" | "stone-200" | "stone-300" | "stone-400" | "stone-500" | "stone-600" | "stone-700" | "stone-800" | "stone-900" | "red-50" | "red-100" | "red-200" | "red-300" | "red-400" | "red-500" | "red-600" | "red-700" | "red-800" | "red-900" | "orange-50" | "orange-100" | "orange-200" | "orange-300" | "orange-400" | "orange-500" | "orange-600" | "orange-700" | "orange-800" | "orange-900" | "amber-50" | "amber-100" | "amber-200" | "amber-300" | "amber-400" | "amber-500" | "amber-600" | "amber-700" | "amber-800" | "amber-900" | "yellow-50" | "yellow-100" | "yellow-200" | "yellow-300" | "yellow-400" | "yellow-500" | "yellow-600" | "yellow-700" | "yellow-800" | "yellow-900" | "lime-50" | "lime-100" | "lime-200" | "lime-300" | "lime-400" | "lime-500" | "lime-600" | "lime-700" | "lime-800" | "lime-900" | "green-50" | "green-100" | "green-200" | "green-300" | "green-400" | "green-500" | "green-600" | "green-700" | "green-800" | "green-900" | "emerald-50" | "emerald-100" | "emerald-200" | "emerald-300" | "emerald-400" | "emerald-500" | "emerald-600" | "emerald-700" | "emerald-800" | "emerald-900" | "teal-50" | "teal-100" | "teal-200" | "teal-300" | "teal-400" | "teal-500" | "teal-600" | "teal-700" | "teal-800" | "teal-900" | "cyan-50" | "cyan-100" | "cyan-200" | "cyan-300" | "cyan-400" | "cyan-500" | "cyan-600" | "cyan-700" | "cyan-800" | "cyan-900" | "sky-50" | "sky-100" | "sky-200" | "sky-300" | "sky-400" | "sky-500" | "sky-600" | "sky-700" | "sky-800" | "sky-900" | "blue-50" | "blue-100" | "blue-200" | "blue-300" | "blue-400" | "blue-500" | "blue-600" | "blue-700" | "blue-800" | "blue-900" | "indigo-50" | "indigo-100" | "indigo-200" | "indigo-300" | "indigo-400" | "indigo-500" | "indigo-600" | "indigo-700" | "indigo-800" | "indigo-900" | "violet-50" | "violet-100" | "violet-200" | "violet-300" | "violet-400" | "violet-500" | "violet-600" | "violet-700" | "violet-800" | "violet-900" | "purple-50" | "purple-100" | "purple-200" | "purple-300" | "purple-400" | "purple-500" | "purple-600" | "purple-700" | "purple-800" | "purple-900" | "fuchsia-50" | "fuchsia-100" | "fuchsia-200" | "fuchsia-300" | "fuchsia-400" | "fuchsia-500" | "fuchsia-600" | "fuchsia-700" | "fuchsia-800" | "fuchsia-900" | "pink-50" | "pink-100" | "pink-200" | "pink-300" | "pink-400" | "pink-500" | "pink-600" | "pink-700" | "pink-800" | "pink-900" | "rose-50" | "rose-100" | "rose-200" | "rose-300" | "rose-400" | "rose-500" | "rose-600" | "rose-700" | "rose-800" | "rose-900" | undefined;
+    fontWeight?: "thin" | "extralight" | "light" | "normal" | "medium" | "semibold" | "bold" | "extrabold" | "black" | undefined;
+}, {
+    sm: "(min-width: 640px)";
+    md: "(min-width: 768px)";
+    lg: "(min-width: 1024px)";
+    xl: "(min-width: 1280px)";
+    xxl: "(min-width: 1536px)";
+    motion: "(prefers-reduced-motion)";
+    dark: "(prefers-color-scheme: dark)";
+    light: "(prefers-color-scheme: light)";
+}, _stitches_react_types_css_util.CSS<{
+    sm: "(min-width: 640px)";
+    md: "(min-width: 768px)";
+    lg: "(min-width: 1024px)";
+    xl: "(min-width: 1280px)";
+    xxl: "(min-width: 1536px)";
+    motion: "(prefers-reduced-motion)";
+    dark: "(prefers-color-scheme: dark)";
+    light: "(prefers-color-scheme: light)";
+}, {
+    colors: {
+        inherit: string;
+        current: string;
+        transparent: string;
+        black: string;
+        white: string;
+        'slate-50': string;
+        'slate-100': string;
+        'slate-200': string;
+        'slate-300': string;
+        'slate-400': string;
+        'slate-500': string;
+        'slate-600': string;
+        'slate-700': string;
+        'slate-800': string;
+        'slate-900': string;
+        'gray-50': string;
+        'gray-100': string;
+        'gray-200': string;
+        'gray-300': string;
+        'gray-400': string;
+        'gray-500': string;
+        'gray-600': string;
+        'gray-700': string;
+        'gray-800': string;
+        'gray-900': string;
+        'zinc-50': string;
+        'zinc-100': string;
+        'zinc-200': string;
+        'zinc-300': string;
+        'zinc-400': string;
+        'zinc-500': string;
+        'zinc-600': string;
+        'zinc-700': string;
+        'zinc-800': string;
+        'zinc-900': string;
+        'neutral-50': string;
+        'neutral-100': string;
+        'neutral-200': string;
+        'neutral-300': string;
+        'neutral-400': string;
+        'neutral-500': string;
+        'neutral-600': string;
+        'neutral-700': string;
+        'neutral-800': string;
+        'neutral-900': string;
+        'stone-50': string;
+        'stone-100': string;
+        'stone-200': string;
+        'stone-300': string;
+        'stone-400': string;
+        'stone-500': string;
+        'stone-600': string;
+        'stone-700': string;
+        'stone-800': string;
+        'stone-900': string;
+        'red-50': string;
+        'red-100': string;
+        'red-200': string;
+        'red-300': string;
+        'red-400': string;
+        'red-500': string;
+        'red-600': string;
+        'red-700': string;
+        'red-800': string;
+        'red-900': string;
+        'orange-50': string;
+        'orange-100': string;
+        'orange-200': string;
+        'orange-300': string;
+        'orange-400': string;
+        'orange-500': string;
+        'orange-600': string;
+        'orange-700': string;
+        'orange-800': string;
+        'orange-900': string;
+        'amber-50': string;
+        'amber-100': string;
+        'amber-200': string;
+        'amber-300': string;
+        'amber-400': string;
+        'amber-500': string;
+        'amber-600': string;
+        'amber-700': string;
+        'amber-800': string;
+        'amber-900': string;
+        'yellow-50': string;
+        'yellow-100': string;
+        'yellow-200': string;
+        'yellow-300': string;
+        'yellow-400': string;
+        'yellow-500': string;
+        'yellow-600': string;
+        'yellow-700': string;
+        'yellow-800': string;
+        'yellow-900': string;
+        'lime-50': string;
+        'lime-100': string;
+        'lime-200': string;
+        'lime-300': string;
+        'lime-400': string;
+        'lime-500': string;
+        'lime-600': string;
+        'lime-700': string;
+        'lime-800': string;
+        'lime-900': string;
+        'green-50': string;
+        'green-100': string;
+        'green-200': string;
+        'green-300': string;
+        'green-400': string;
+        'green-500': string;
+        'green-600': string;
+        'green-700': string;
+        'green-800': string;
+        'green-900': string;
+        'emerald-50': string;
+        'emerald-100': string;
+        'emerald-200': string;
+        'emerald-300': string;
+        'emerald-400': string;
+        'emerald-500': string;
+        'emerald-600': string;
+        'emerald-700': string;
+        'emerald-800': string;
+        'emerald-900': string;
+        'teal-50': string;
+        'teal-100': string;
+        'teal-200': string;
+        'teal-300': string;
+        'teal-400': string;
+        'teal-500': string;
+        'teal-600': string;
+        'teal-700': string;
+        'teal-800': string;
+        'teal-900': string;
+        'cyan-50': string;
+        'cyan-100': string;
+        'cyan-200': string;
+        'cyan-300': string;
+        'cyan-400': string;
+        'cyan-500': string;
+        'cyan-600': string;
+        'cyan-700': string;
+        'cyan-800': string;
+        'cyan-900': string;
+        'sky-50': string;
+        'sky-100': string;
+        'sky-200': string;
+        'sky-300': string;
+        'sky-400': string;
+        'sky-500': string;
+        'sky-600': string;
+        'sky-700': string;
+        'sky-800': string;
+        'sky-900': string;
+        'blue-50': string;
+        'blue-100': string;
+        'blue-200': string;
+        'blue-300': string;
+        'blue-400': string;
+        'blue-500': string;
+        'blue-600': string;
+        'blue-700': string;
+        'blue-800': string;
+        'blue-900': string;
+        'indigo-50': string;
+        'indigo-100': string;
+        'indigo-200': string;
+        'indigo-300': string;
+        'indigo-400': string;
+        'indigo-500': string;
+        'indigo-600': string;
+        'indigo-700': string;
+        'indigo-800': string;
+        'indigo-900': string;
+        'violet-50': string;
+        'violet-100': string;
+        'violet-200': string;
+        'violet-300': string;
+        'violet-400': string;
+        'violet-500': string;
+        'violet-600': string;
+        'violet-700': string;
+        'violet-800': string;
+        'violet-900': string;
+        'purple-50': string;
+        'purple-100': string;
+        'purple-200': string;
+        'purple-300': string;
+        'purple-400': string;
+        'purple-500': string;
+        'purple-600': string;
+        'purple-700': string;
+        'purple-800': string;
+        'purple-900': string;
+        'fuchsia-50': string;
+        'fuchsia-100': string;
+        'fuchsia-200': string;
+        'fuchsia-300': string;
+        'fuchsia-400': string;
+        'fuchsia-500': string;
+        'fuchsia-600': string;
+        'fuchsia-700': string;
+        'fuchsia-800': string;
+        'fuchsia-900': string;
+        'pink-50': string;
+        'pink-100': string;
+        'pink-200': string;
+        'pink-300': string;
+        'pink-400': string;
+        'pink-500': string;
+        'pink-600': string;
+        'pink-700': string;
+        'pink-800': string;
+        'pink-900': string;
+        'rose-50': string;
+        'rose-100': string;
+        'rose-200': string;
+        'rose-300': string;
+        'rose-400': string;
+        'rose-500': string;
+        'rose-600': string;
+        'rose-700': string;
+        'rose-800': string;
+        'rose-900': string;
+    };
+    fonts: {
+        sans: string;
+        serif: string;
+        mono: string;
+    };
+    fontSizes: {
+        xs: string;
+        sm: string;
+        base: string;
+        lg: string;
+        xl: string;
+        '2xl': string;
+        '3xl': string;
+        '4xl': string;
+        '5xl': string;
+        '6xl': string;
+        '7xl': string;
+        '8xl': string;
+        '9xl': string;
+    };
+    fontWeights: {
+        thin: string;
+        extralight: string;
+        light: string;
+        normal: string;
+        medium: string;
+        semibold: string;
+        bold: string;
+        extrabold: string;
+        black: string;
+    };
+    lineHeights: {
+        3: string;
+        4: string;
+        5: string;
+        6: string;
+        7: string;
+        8: string;
+        9: string;
+        10: string;
+        none: string;
+        tight: string;
+        snug: string;
+        normal: string;
+        relaxed: string;
+        loose: string;
+    };
+    letterSpacings: {
+        tighter: string;
+        tight: string;
+        normal: string;
+        wide: string;
+        wider: string;
+        widest: string;
+    };
+    sizes: {
+        auto: string;
+        '1px': string;
+        '2px': string;
+        '3px': string;
+        '4px': string;
+        '5px': string;
+        '6px': string;
+        '7px': string;
+        '8px': string;
+        '9px': string;
+        '10px': string;
+        0: string;
+        1: string;
+        2: string;
+        3: string;
+        4: string;
+        5: string;
+        6: string;
+        8: string;
+        10: string;
+        12: string;
+        16: string;
+        20: string;
+        24: string;
+        28: string;
+        32: string;
+        36: string;
+        40: string;
+        44: string;
+        48: string;
+        52: string;
+        56: string;
+        60: string;
+        64: string;
+        68: string;
+        72: string;
+        76: string;
+        80: string;
+        84: string;
+        88: string;
+        92: string;
+        96: string;
+        '1/2': string;
+        '1/3': string;
+        '2/3': string;
+        '1/4': string;
+        '2/4': string;
+        '3/4': string;
+        '1/5': string;
+        '2/5': string;
+        '3/5': string;
+        '4/5': string;
+        '1/6': string;
+        '2/6': string;
+        '3/6': string;
+        '4/6': string;
+        '5/6': string;
+        '1/12': string;
+        '2/12': string;
+        '3/12': string;
+        '4/12': string;
+        '5/12': string;
+        '6/12': string;
+        '7/12': string;
+        '8/12': string;
+        '9/12': string;
+        '10/12': string;
+        '11/12': string;
+        full: string;
+        vw: string;
+        vh: string;
+        content: string;
+    };
+    space: {
+        auto: string;
+        px: string;
+        0: string;
+        1: string;
+        2: string;
+        3: string;
+        4: string;
+        5: string;
+        6: string;
+        8: string;
+        10: string;
+        12: string;
+        16: string;
+        20: string;
+        24: string;
+        32: string;
+        40: string;
+        48: string;
+        56: string;
+        64: string;
+        72: string;
+        80: string;
+        96: string;
+    };
+    radii: {
+        none: string;
+        sm: string;
+        rounded: string;
+        md: string;
+        lg: string;
+        xl: string;
+        xxl: string;
+        xxxl: string;
+        full: string;
+    };
+    borderWidths: {
+        0: string;
+        1: string;
+        2: string;
+        3: string;
+        4: string;
+        5: string;
+        6: string;
+        7: string;
+        8: string;
+        9: string;
+        10: string;
+    };
+    borderStyles: {
+        solid: string;
+        dashed: string;
+        dotted: string;
+        double: string;
+        groove: string;
+        hidden: string;
+        inset: string;
+        none: string;
+        outset: string;
+        ridge: string;
+    };
+    shadows: unknown;
+    zIndices: {
+        1: string;
+        2: string;
+        3: string;
+        4: string;
+        5: string;
+        6: string;
+        7: string;
+        8: string;
+        9: string;
+        max: string;
+    };
+    transitions: unknown;
+}, _stitches_react_types_config.DefaultThemeMap, {
+    tnProperty: (value: string) => {
+        transitionProperty: string;
+    };
+    tnFunction: (value: string) => {
+        transitionTimingFunction: string;
+    };
+    tnDuration: (value: string) => {
+        transitionDuration: string;
+    };
+    tnDelay: (value: string) => {
+        transitionDelay: string;
+    };
+    tnICount: (value: string | number) => {
+        transitionIterationCount: string | number;
+    };
+    tnt: (value: string) => {
+        transitionTiming: string;
+    };
+    tdl: (value: string) => {
+        textDecorationLine: string;
+    };
+    tdc: (value: string) => {
+        textDecorationColor: string;
+    };
+    tdt: (value: string) => {
+        textDecorationThickness: string;
+    };
+    tds: (value: string) => {
+        textDecorationStyle: string;
+    };
+    br: (value: string) => {
+        borderRadius: string;
+    };
+    w: (value: string) => {
+        width: string;
+    };
+    h: (value: string) => {
+        height: string;
+    };
+    mxw: (value: string) => {
+        maxWidth: string;
+    };
+    mnw: (value: string) => {
+        minWidth: string;
+    };
+    mxh: (value: string) => {
+        maxHeight: string;
+    };
+    mnh: (value: string) => {
+        minHeight: string;
+    };
+    bsh: (value: string) => {
+        boxShadow: string;
+    };
+    lh: (value: string) => {
+        lineHeight: string;
+    };
+    lg: (value: string) => {
+        backgroundImage: string;
+    };
+    boxSize: (value: string) => {
+        width: string;
+        height: string;
+    };
+    bgc: (value: string) => {
+        backgroundColor: string;
+    };
+    hbgc: (value: string) => {
+        '&:hover': {
+            backgroundColor: string;
+        };
+    };
+    fbgc: (value: string) => {
+        '&:focus': {
+            backgroundColor: string;
+        };
+    };
+    dbgc: (value: string) => {
+        '&:disabled': {
+            backgroundColor: string;
+        };
+    };
+    tc: (value: string) => {
+        color: string;
+    };
+    htc: (value: string) => {
+        '&:hover': {
+            color: string;
+        };
+    };
+    ftc: (value: string) => {
+        '&:focus': {
+            color: string;
+        };
+    };
+    dtc: (value: string) => {
+        '&:disabled': {
+            color: string;
+        };
+    };
+    g: (value: string) => {
+        gap: string;
+    };
+    gy: (value: string) => {
+        rowGap: string;
+    };
+    gx: (value: string) => {
+        columnGap: string;
+    };
+    bw: (value: string) => {
+        borderWidth: string;
+    };
+    blw: (value: string) => {
+        borderLeftWidth: string;
+    };
+    brw: (value: string) => {
+        borderRightWidth: string;
+    };
+    btw: (value: string) => {
+        borderTopWidth: string;
+    };
+    bbw: (value: string) => {
+        borderBottomWidth: string;
+    };
+    bwx: (value: string) => {
+        blw: string;
+        brw: string;
+    };
+    bwy: (value: string) => {
+        btw: string;
+        bbw: string;
+    };
+    bs: (value: string) => {
+        borderStyle: string;
+    };
+    bsl: (value: string) => {
+        borderLeftStyle: string;
+    };
+    bsr: (value: string) => {
+        borderRightStyle: string;
+    };
+    bst: (value: string) => {
+        borderTopStyle: string;
+    };
+    bsb: (value: string) => {
+        borderBottomStyle: string;
+    };
+    bsx: (value: string) => {
+        bsl: string;
+        bsr: string;
+    };
+    bsy: (value: string) => {
+        bst: string;
+        bsb: string;
+    };
+    bc: (value: string) => {
+        borderColor: string;
+    };
+    hbc: (value: string) => {
+        '&:hover': {
+            borderColor: string;
+        };
+    };
+    fbc: (value: string) => {
+        '&:focus': {
+            borderColor: string;
+        };
+    };
+    dbc: (value: string) => {
+        '&:disabled': {
+            borderColor: string;
+        };
+    };
+    hover: (value: {
+        [x: string]: string;
+    }) => {
+        '&:hover': {
+            [x: string]: string;
+        };
+    };
+    focus: (value: {
+        [x: string]: string;
+    }) => {
+        '&:focus': {
+            [x: string]: string;
+        };
+    };
+    svg: (value: {
+        [x: string]: string;
+    }) => {
+        '& > svg': {
+            [x: string]: string;
+        };
+    };
+    image: (value: {
+        [x: string]: string | {
+            [x: string]: string;
+        };
+    }) => {
+        '& > img': {
+            [x: string]: string | {
+                [x: string]: string;
+            };
+        };
+    };
+    disabled: (value: {
+        [x: string]: string | {
+            [x: string]: string;
+        };
+    }) => {
+        '&:disabled': {
+            [x: string]: string | {
+                [x: string]: string;
+            };
+        };
+    };
+    placeholder: (value: {
+        [x: string]: string;
+    }) => {
+        '::placeholder': {
+            [x: string]: string;
+        };
+    };
+    m: (value: string) => {
+        margin: string;
+    };
+    mt: (value: string) => {
+        marginTop: string;
+    };
+    mr: (value: string) => {
+        marginRight: string;
+    };
+    mb: (value: string) => {
+        marginBottom: string;
+    };
+    ml: (value: string) => {
+        marginLeft: string;
+    };
+    mx: (value: string) => {
+        ml: string;
+        mr: string;
+    };
+    my: (value: string) => {
+        mt: string;
+        mb: string;
+    };
+    p: (value: string) => {
+        padding: string;
+    };
+    pt: (value: string) => {
+        paddingTop: string;
+    };
+    pr: (value: string) => {
+        paddingRight: string;
+    };
+    pb: (value: string) => {
+        paddingBottom: string;
+    };
+    pl: (value: string) => {
+        paddingLeft: string;
+    };
+    px: (value: string) => {
+        pl: string;
+        pr: string;
+    };
+    py: (value: string) => {
+        pt: string;
+        pb: string;
+    };
+}>>>;
+declare const Option: react.MemoExoticComponent<_stitches_react_types_styled_component.StyledComponent<"select", {}, {
+    sm: "(min-width: 640px)";
+    md: "(min-width: 768px)";
+    lg: "(min-width: 1024px)";
+    xl: "(min-width: 1280px)";
+    xxl: "(min-width: 1536px)";
+    motion: "(prefers-reduced-motion)";
+    dark: "(prefers-color-scheme: dark)";
+    light: "(prefers-color-scheme: light)";
+}, _stitches_react_types_css_util.CSS<{
+    sm: "(min-width: 640px)";
+    md: "(min-width: 768px)";
+    lg: "(min-width: 1024px)";
+    xl: "(min-width: 1280px)";
+    xxl: "(min-width: 1536px)";
+    motion: "(prefers-reduced-motion)";
+    dark: "(prefers-color-scheme: dark)";
+    light: "(prefers-color-scheme: light)";
+}, {
+    colors: {
+        inherit: string;
+        current: string;
+        transparent: string;
+        black: string;
+        white: string;
+        'slate-50': string;
+        'slate-100': string;
+        'slate-200': string;
+        'slate-300': string;
+        'slate-400': string;
+        'slate-500': string;
+        'slate-600': string;
+        'slate-700': string;
+        'slate-800': string;
+        'slate-900': string;
+        'gray-50': string;
+        'gray-100': string;
+        'gray-200': string;
+        'gray-300': string;
+        'gray-400': string;
+        'gray-500': string;
+        'gray-600': string;
+        'gray-700': string;
+        'gray-800': string;
+        'gray-900': string;
+        'zinc-50': string;
+        'zinc-100': string;
+        'zinc-200': string;
+        'zinc-300': string;
+        'zinc-400': string;
+        'zinc-500': string;
+        'zinc-600': string;
+        'zinc-700': string;
+        'zinc-800': string;
+        'zinc-900': string;
+        'neutral-50': string;
+        'neutral-100': string;
+        'neutral-200': string;
+        'neutral-300': string;
+        'neutral-400': string;
+        'neutral-500': string;
+        'neutral-600': string;
+        'neutral-700': string;
+        'neutral-800': string;
+        'neutral-900': string;
+        'stone-50': string;
+        'stone-100': string;
+        'stone-200': string;
+        'stone-300': string;
+        'stone-400': string;
+        'stone-500': string;
+        'stone-600': string;
+        'stone-700': string;
+        'stone-800': string;
+        'stone-900': string;
+        'red-50': string;
+        'red-100': string;
+        'red-200': string;
+        'red-300': string;
+        'red-400': string;
+        'red-500': string;
+        'red-600': string;
+        'red-700': string;
+        'red-800': string;
+        'red-900': string;
+        'orange-50': string;
+        'orange-100': string;
+        'orange-200': string;
+        'orange-300': string;
+        'orange-400': string;
+        'orange-500': string;
+        'orange-600': string;
+        'orange-700': string;
+        'orange-800': string;
+        'orange-900': string;
+        'amber-50': string;
+        'amber-100': string;
+        'amber-200': string;
+        'amber-300': string;
+        'amber-400': string;
+        'amber-500': string;
+        'amber-600': string;
+        'amber-700': string;
+        'amber-800': string;
+        'amber-900': string;
+        'yellow-50': string;
+        'yellow-100': string;
+        'yellow-200': string;
+        'yellow-300': string;
+        'yellow-400': string;
+        'yellow-500': string;
+        'yellow-600': string;
+        'yellow-700': string;
+        'yellow-800': string;
+        'yellow-900': string;
+        'lime-50': string;
+        'lime-100': string;
+        'lime-200': string;
+        'lime-300': string;
+        'lime-400': string;
+        'lime-500': string;
+        'lime-600': string;
+        'lime-700': string;
+        'lime-800': string;
+        'lime-900': string;
+        'green-50': string;
+        'green-100': string;
+        'green-200': string;
+        'green-300': string;
+        'green-400': string;
+        'green-500': string;
+        'green-600': string;
+        'green-700': string;
+        'green-800': string;
+        'green-900': string;
+        'emerald-50': string;
+        'emerald-100': string;
+        'emerald-200': string;
+        'emerald-300': string;
+        'emerald-400': string;
+        'emerald-500': string;
+        'emerald-600': string;
+        'emerald-700': string;
+        'emerald-800': string;
+        'emerald-900': string;
+        'teal-50': string;
+        'teal-100': string;
+        'teal-200': string;
+        'teal-300': string;
+        'teal-400': string;
+        'teal-500': string;
+        'teal-600': string;
+        'teal-700': string;
+        'teal-800': string;
+        'teal-900': string;
+        'cyan-50': string;
+        'cyan-100': string;
+        'cyan-200': string;
+        'cyan-300': string;
+        'cyan-400': string;
+        'cyan-500': string;
+        'cyan-600': string;
+        'cyan-700': string;
+        'cyan-800': string;
+        'cyan-900': string;
+        'sky-50': string;
+        'sky-100': string;
+        'sky-200': string;
+        'sky-300': string;
+        'sky-400': string;
+        'sky-500': string;
+        'sky-600': string;
+        'sky-700': string;
+        'sky-800': string;
+        'sky-900': string;
+        'blue-50': string;
+        'blue-100': string;
+        'blue-200': string;
+        'blue-300': string;
+        'blue-400': string;
+        'blue-500': string;
+        'blue-600': string;
+        'blue-700': string;
+        'blue-800': string;
+        'blue-900': string;
+        'indigo-50': string;
+        'indigo-100': string;
+        'indigo-200': string;
+        'indigo-300': string;
+        'indigo-400': string;
+        'indigo-500': string;
+        'indigo-600': string;
+        'indigo-700': string;
+        'indigo-800': string;
+        'indigo-900': string;
+        'violet-50': string;
+        'violet-100': string;
+        'violet-200': string;
+        'violet-300': string;
+        'violet-400': string;
+        'violet-500': string;
+        'violet-600': string;
+        'violet-700': string;
+        'violet-800': string;
+        'violet-900': string;
+        'purple-50': string;
+        'purple-100': string;
+        'purple-200': string;
+        'purple-300': string;
+        'purple-400': string;
+        'purple-500': string;
+        'purple-600': string;
+        'purple-700': string;
+        'purple-800': string;
+        'purple-900': string;
+        'fuchsia-50': string;
+        'fuchsia-100': string;
+        'fuchsia-200': string;
+        'fuchsia-300': string;
+        'fuchsia-400': string;
+        'fuchsia-500': string;
+        'fuchsia-600': string;
+        'fuchsia-700': string;
+        'fuchsia-800': string;
+        'fuchsia-900': string;
+        'pink-50': string;
+        'pink-100': string;
+        'pink-200': string;
+        'pink-300': string;
+        'pink-400': string;
+        'pink-500': string;
+        'pink-600': string;
+        'pink-700': string;
+        'pink-800': string;
+        'pink-900': string;
+        'rose-50': string;
+        'rose-100': string;
+        'rose-200': string;
+        'rose-300': string;
+        'rose-400': string;
+        'rose-500': string;
+        'rose-600': string;
+        'rose-700': string;
+        'rose-800': string;
+        'rose-900': string;
+    };
+    fonts: {
+        sans: string;
+        serif: string;
+        mono: string;
+    };
+    fontSizes: {
+        xs: string;
+        sm: string;
+        base: string;
+        lg: string;
+        xl: string;
+        '2xl': string;
+        '3xl': string;
+        '4xl': string;
+        '5xl': string;
+        '6xl': string;
+        '7xl': string;
+        '8xl': string;
+        '9xl': string;
+    };
+    fontWeights: {
+        thin: string;
+        extralight: string;
+        light: string;
+        normal: string;
+        medium: string;
+        semibold: string;
+        bold: string;
+        extrabold: string;
+        black: string;
+    };
+    lineHeights: {
+        3: string;
+        4: string;
+        5: string;
+        6: string;
+        7: string;
+        8: string;
+        9: string;
+        10: string;
+        none: string;
+        tight: string;
+        snug: string;
+        normal: string;
+        relaxed: string;
+        loose: string;
+    };
+    letterSpacings: {
+        tighter: string;
+        tight: string;
+        normal: string;
+        wide: string;
+        wider: string;
+        widest: string;
+    };
+    sizes: {
+        auto: string;
+        '1px': string;
+        '2px': string;
+        '3px': string;
+        '4px': string;
+        '5px': string;
+        '6px': string;
+        '7px': string;
+        '8px': string;
+        '9px': string;
+        '10px': string;
+        0: string;
+        1: string;
+        2: string;
+        3: string;
+        4: string;
+        5: string;
+        6: string;
+        8: string;
+        10: string;
+        12: string;
+        16: string;
+        20: string;
+        24: string;
+        28: string;
+        32: string;
+        36: string;
+        40: string;
+        44: string;
+        48: string;
+        52: string;
+        56: string;
+        60: string;
+        64: string;
+        68: string;
+        72: string;
+        76: string;
+        80: string;
+        84: string;
+        88: string;
+        92: string;
+        96: string;
+        '1/2': string;
+        '1/3': string;
+        '2/3': string;
+        '1/4': string;
+        '2/4': string;
+        '3/4': string;
+        '1/5': string;
+        '2/5': string;
+        '3/5': string;
+        '4/5': string;
+        '1/6': string;
+        '2/6': string;
+        '3/6': string;
+        '4/6': string;
+        '5/6': string;
+        '1/12': string;
+        '2/12': string;
+        '3/12': string;
+        '4/12': string;
+        '5/12': string;
+        '6/12': string;
+        '7/12': string;
+        '8/12': string;
+        '9/12': string;
+        '10/12': string;
+        '11/12': string;
+        full: string;
+        vw: string;
+        vh: string;
+        content: string;
+    };
+    space: {
+        auto: string;
+        px: string;
+        0: string;
+        1: string;
+        2: string;
+        3: string;
+        4: string;
+        5: string;
+        6: string;
+        8: string;
+        10: string;
+        12: string;
+        16: string;
+        20: string;
+        24: string;
+        32: string;
+        40: string;
+        48: string;
+        56: string;
+        64: string;
+        72: string;
+        80: string;
+        96: string;
+    };
+    radii: {
+        none: string;
+        sm: string;
+        rounded: string;
+        md: string;
+        lg: string;
+        xl: string;
+        xxl: string;
+        xxxl: string;
+        full: string;
+    };
+    borderWidths: {
+        0: string;
+        1: string;
+        2: string;
+        3: string;
+        4: string;
+        5: string;
+        6: string;
+        7: string;
+        8: string;
+        9: string;
+        10: string;
+    };
+    borderStyles: {
+        solid: string;
+        dashed: string;
+        dotted: string;
+        double: string;
+        groove: string;
+        hidden: string;
+        inset: string;
+        none: string;
+        outset: string;
+        ridge: string;
+    };
+    shadows: unknown;
+    zIndices: {
+        1: string;
+        2: string;
+        3: string;
+        4: string;
+        5: string;
+        6: string;
+        7: string;
+        8: string;
+        9: string;
+        max: string;
+    };
+    transitions: unknown;
+}, _stitches_react_types_config.DefaultThemeMap, {
+    tnProperty: (value: string) => {
+        transitionProperty: string;
+    };
+    tnFunction: (value: string) => {
+        transitionTimingFunction: string;
+    };
+    tnDuration: (value: string) => {
+        transitionDuration: string;
+    };
+    tnDelay: (value: string) => {
+        transitionDelay: string;
+    };
+    tnICount: (value: string | number) => {
+        transitionIterationCount: string | number;
+    };
+    tnt: (value: string) => {
+        transitionTiming: string;
+    };
+    tdl: (value: string) => {
+        textDecorationLine: string;
+    };
+    tdc: (value: string) => {
+        textDecorationColor: string;
+    };
+    tdt: (value: string) => {
+        textDecorationThickness: string;
+    };
+    tds: (value: string) => {
+        textDecorationStyle: string;
+    };
+    br: (value: string) => {
+        borderRadius: string;
+    };
+    w: (value: string) => {
+        width: string;
+    };
+    h: (value: string) => {
+        height: string;
+    };
+    mxw: (value: string) => {
+        maxWidth: string;
+    };
+    mnw: (value: string) => {
+        minWidth: string;
+    };
+    mxh: (value: string) => {
+        maxHeight: string;
+    };
+    mnh: (value: string) => {
+        minHeight: string;
+    };
+    bsh: (value: string) => {
+        boxShadow: string;
+    };
+    lh: (value: string) => {
+        lineHeight: string;
+    };
+    lg: (value: string) => {
+        backgroundImage: string;
+    };
+    boxSize: (value: string) => {
+        width: string;
+        height: string;
+    };
+    bgc: (value: string) => {
+        backgroundColor: string;
+    };
+    hbgc: (value: string) => {
+        '&:hover': {
+            backgroundColor: string;
+        };
+    };
+    fbgc: (value: string) => {
+        '&:focus': {
+            backgroundColor: string;
+        };
+    };
+    dbgc: (value: string) => {
+        '&:disabled': {
+            backgroundColor: string;
+        };
+    };
+    tc: (value: string) => {
+        color: string;
+    };
+    htc: (value: string) => {
+        '&:hover': {
+            color: string;
+        };
+    };
+    ftc: (value: string) => {
+        '&:focus': {
+            color: string;
+        };
+    };
+    dtc: (value: string) => {
+        '&:disabled': {
+            color: string;
+        };
+    };
+    g: (value: string) => {
+        gap: string;
+    };
+    gy: (value: string) => {
+        rowGap: string;
+    };
+    gx: (value: string) => {
+        columnGap: string;
+    };
+    bw: (value: string) => {
+        borderWidth: string;
+    };
+    blw: (value: string) => {
+        borderLeftWidth: string;
+    };
+    brw: (value: string) => {
+        borderRightWidth: string;
+    };
+    btw: (value: string) => {
+        borderTopWidth: string;
+    };
+    bbw: (value: string) => {
+        borderBottomWidth: string;
+    };
+    bwx: (value: string) => {
+        blw: string;
+        brw: string;
+    };
+    bwy: (value: string) => {
+        btw: string;
+        bbw: string;
+    };
+    bs: (value: string) => {
+        borderStyle: string;
+    };
+    bsl: (value: string) => {
+        borderLeftStyle: string;
+    };
+    bsr: (value: string) => {
+        borderRightStyle: string;
+    };
+    bst: (value: string) => {
+        borderTopStyle: string;
+    };
+    bsb: (value: string) => {
+        borderBottomStyle: string;
+    };
+    bsx: (value: string) => {
+        bsl: string;
+        bsr: string;
+    };
+    bsy: (value: string) => {
+        bst: string;
+        bsb: string;
+    };
+    bc: (value: string) => {
+        borderColor: string;
+    };
+    hbc: (value: string) => {
+        '&:hover': {
+            borderColor: string;
+        };
+    };
+    fbc: (value: string) => {
+        '&:focus': {
+            borderColor: string;
+        };
+    };
+    dbc: (value: string) => {
+        '&:disabled': {
+            borderColor: string;
+        };
+    };
+    hover: (value: {
+        [x: string]: string;
+    }) => {
+        '&:hover': {
+            [x: string]: string;
+        };
+    };
+    focus: (value: {
+        [x: string]: string;
+    }) => {
+        '&:focus': {
+            [x: string]: string;
+        };
+    };
+    svg: (value: {
+        [x: string]: string;
+    }) => {
+        '& > svg': {
+            [x: string]: string;
+        };
+    };
+    image: (value: {
+        [x: string]: string | {
+            [x: string]: string;
+        };
+    }) => {
+        '& > img': {
+            [x: string]: string | {
+                [x: string]: string;
+            };
+        };
+    };
+    disabled: (value: {
+        [x: string]: string | {
+            [x: string]: string;
+        };
+    }) => {
+        '&:disabled': {
+            [x: string]: string | {
+                [x: string]: string;
+            };
+        };
+    };
+    placeholder: (value: {
+        [x: string]: string;
+    }) => {
+        '::placeholder': {
+            [x: string]: string;
+        };
+    };
+    m: (value: string) => {
+        margin: string;
+    };
+    mt: (value: string) => {
+        marginTop: string;
+    };
+    mr: (value: string) => {
+        marginRight: string;
+    };
+    mb: (value: string) => {
+        marginBottom: string;
+    };
+    ml: (value: string) => {
+        marginLeft: string;
+    };
+    mx: (value: string) => {
+        ml: string;
+        mr: string;
+    };
+    my: (value: string) => {
+        mt: string;
+        mb: string;
+    };
+    p: (value: string) => {
+        padding: string;
+    };
+    pt: (value: string) => {
+        paddingTop: string;
+    };
+    pr: (value: string) => {
+        paddingRight: string;
+    };
+    pb: (value: string) => {
+        paddingBottom: string;
+    };
+    pl: (value: string) => {
+        paddingLeft: string;
+    };
+    px: (value: string) => {
+        pl: string;
+        pr: string;
+    };
+    py: (value: string) => {
+        pt: string;
+        pb: string;
+    };
+}>>>;
 declare const Text: _stitches_react_types_styled_component.StyledComponent<"span", {
     display?: "hidden" | "flex" | "table" | "block" | "inline" | "contents" | "inlineBlock" | "inlineFlex" | "inlineTable" | "tableCaption" | "tableCell" | "tableColumn" | "tableColumnGroup" | "tableFooterGroup" | "tableHeaderGroup" | "tableRowGroup" | "tableRow" | "flowRoot" | "inlineGrid" | "listItem" | undefined;
     columns?: "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "none" | "1" | "2" | "12" | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 12 | "11" | 11 | undefined;
@@ -39376,4 +40952,4 @@ declare const A: react.MemoExoticComponent<_stitches_react_types_styled_componen
     };
 }>>>;
 
-export { A, Article, Aside, Block, Button, CSS, Container, Del, Em, Fieldset, Filter, Flex, Footer, Form, Grid, H1, H2, H3, H4, H5, H6, Header, Input, Ins, Item, Label, Legend, List, Main, Mark, Nav, P, Quote, Section, Small, Span, StitchesTheme, Strong, Text, Textarea, VariantProps, animations, colors, config, createThemeBase, css, getCssText, globalCss, globalStyles, keyframes, styled, theme };
+export { A, Article, Aside, Block, Button, CSS, Container, Del, Em, Fieldset, Filter, Flex, Footer, Form, Grid, H1, H2, H3, H4, H5, H6, Header, Input, Ins, Item, Label, Legend, List, Main, Mark, Nav, Option, P, Quote, Section, Select, Small, Span, StitchesTheme, Strong, Text, Textarea, VariantProps, animations, colors, config, createThemeBase, css, getCssText, globalCss, globalStyles, keyframes, styled, theme };
