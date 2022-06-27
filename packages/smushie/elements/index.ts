@@ -34,7 +34,7 @@ export const Filter = memo(styled('div', styles))
 export const Input = memo(styled('input', styles))
 export const Textarea = memo(styled('textarea', styles))
 export const Select = memo(styled('select', styles))
-export const Option = memo(styled('select'))
+export const Option = memo(styled('option'))
 
 // Typography
 export const Text = styled('span', styles)
