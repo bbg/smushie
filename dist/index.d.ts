@@ -25695,7 +25695,7 @@ declare const Select: react.MemoExoticComponent<_stitches_react_types_styled_com
         pb: string;
     };
 }>>>;
-declare const Option: react.MemoExoticComponent<_stitches_react_types_styled_component.StyledComponent<"select", {}, {
+declare const Option: react.MemoExoticComponent<_stitches_react_types_styled_component.StyledComponent<"option", {}, {
     sm: "(min-width: 640px)";
     md: "(min-width: 768px)";
     lg: "(min-width: 1024px)";
